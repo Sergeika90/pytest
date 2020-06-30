@@ -1,4 +1,6 @@
-link = "http://selenium1py.pythonanywhere.com/ru/catalogue/coders-at-work_207/" 
+import time
+
+link = "http://selenium1py.pythonanywhere.com/catalogue/coders-at-work_207/" 
  
 def test_items(browser):
     browser.get(link)
